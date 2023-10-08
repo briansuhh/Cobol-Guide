@@ -22,7 +22,7 @@ sudo apt update
 sudo apt install gnucobol4
 ```
 
-- Make a COBOL program for displaying Hello World, and save it as main.cbb or main.cob 
+- Make a COBOL program for displaying Hello World, and save it as main.cob or main.cbl
 ```cobol
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HelloWorld.
@@ -40,7 +40,7 @@ sudo apt install gnucobol4
 # the -x flag indicates that you want it to be compiled as an executable file
 # the -o flag indicates the file name for the output
 # main.cob is the program that you want to compile 
-cobc -x -o output main.cbb
+cobc -x -o output main.cob
 
 # the first command compiled your program, now run the file you created
 ./output

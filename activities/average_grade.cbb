@@ -1,0 +1,42 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. average_grade.
+       AUTHOR. BRIAN SEBASTIAN.
+       INSTALLATION. QUEZON CITY.
+       DATE-WRITTEN. 07/10/2023.
+       DATE-COMPILED. 07/10/2023.
+       
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 Student-Number PIC X(10).
+       01 Student-Name PIC X(10).
+       01 Midterm-Grade PIC 9(3).
+       01 Final-Grade PIC 9(3).
+       01 Average-Grade PIC 9(3).
+       01 User-Choice PIC X(1).
+       
+       PROCEDURE DIVISION.
+       
+       main-processing.
+           PERFORM input-process UNTIL User-Choice NOT EQUAL TO "Y" AND User-Choice NOT EQUAL TO "y".
+           EXIT PROGRAM.
+       
+       input-process.
+           DISPLAY "ENTER NAME: " WITH NO ADVANCING.
+           ACCEPT Student-Name.
+       
+           DISPLAY "ENTER MIDTERM GRADE: " WITH NO ADVANCING.
+           ACCEPT Midterm-Grade.
+       
+           DISPLAY "ENTER FINAL GRADE: " WITH NO ADVANCING.
+           ACCEPT Final-Grade.
+       
+           COMPUTE Average-Grade = (Midterm-Grade + Final-Grade) / 2.
+       
+           DISPLAY "STUDENT NAME: " Student-Name.
+           DISPLAY "AVERAGE GRADE: " Average-Grade.
+       
+           DISPLAY "INPUT ANOTHER ONE? (Y/N)" WITH NO ADVANCING.
+           ACCEPT User-Choice.
+       
+       STOP RUN.
+       

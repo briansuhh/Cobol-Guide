@@ -1,0 +1,62 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. StudentAverageGrade.
+       AUTHOR. YourName.
+       DATE-WRITTEN. 07/10/2023.
+       
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 STUDNO PIC X(10).
+       01 STUDNAME PIC X(10).
+       01 MIDGRADE PIC 9(3).
+       01 FINGRADE PIC 9(3).
+       01 AVERAGE-OUT PIC 9(3).
+       01 ANS PIC X(1).
+       
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT Output-File ASSIGN TO "STUDREPORT.txt".
+       
+       FILE SECTION.
+       FD Output-File.
+       01 Output-Record.
+          02 STUDNO-OUT PIC X(10).
+          02 STUDNAME-OUT PIC X(10).
+          02 MIDGRADE-OUT PIC 9(3).
+          02 FINGRADE-OUT PIC 9(3).
+          02 AVERAGE-OUT PIC 9(3).
+       
+       PROCEDURE DIVISION.
+          OPEN OUTPUT Output-File
+       
+          PERFORM PROCESS-STUDENT UNTIL ANS = 'N' OR ANS = 'n'
+       
+          CLOSE Output-File
+          STOP RUN.
+       
+       PROCESS-STUDENT.
+          DISPLAY "Enter STUDNO: " WITH NO ADVANCING.
+          ACCEPT STUDNO.
+       
+          DISPLAY "Enter STUDNAME: " WITH NO ADVANCING.
+          ACCEPT STUDNAME.
+       
+          DISPLAY "Enter MIDGRADE: " WITH NO ADVANCING.
+          ACCEPT MIDGRADE.
+       
+          DISPLAY "Enter FINGRADE: " WITH NO ADVANCING.
+          ACCEPT FINGRADE.
+       
+          COMPUTE AVERAGE-OUT = (MIDGRADE + FINGRADE) / 2
+       
+          MOVE STUDNO TO STUDNO-OUT
+          MOVE STUDNAME TO STUDNAME-OUT
+          MOVE MIDGRADE TO MIDGRADE-OUT
+          MOVE FINGRADE TO FINGRADE-OUT
+          MOVE AVERAGE-OUT TO AVERAGE-OUT
+       
+          WRITE Output-Record
+       
+          DISPLAY "Do you want to enter another student (Y/N)? " WITH NO ADVANCING.
+          ACCEPT ANS
+       
