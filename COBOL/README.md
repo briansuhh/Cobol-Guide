@@ -63,3 +63,7 @@ main.exe
 ```
 
 - NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
+
+![STEP 1](../assets/STEP1.mp4)
+![STEP 2](../assets/STEP2.mp4)  
+![STEP 3](../assets/STEP3.mp4)
