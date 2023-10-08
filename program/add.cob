@@ -8,11 +8,11 @@
        01 Result PIC 9(6).
        
        PROCEDURE DIVISION.
-           A-PARA.
+       A-PARA.
            PERFORM B-PARA 3 TIMES.                                      
            STOP RUN.
        
-           B-PARA.
+       B-PARA.
            DISPLAY "Enter the first number: " WITH NO ADVANCING.
            ACCEPT Num1.
            DISPLAY "Enter the second number: " WITH NO ADVANCING.
