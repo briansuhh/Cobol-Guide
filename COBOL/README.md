@@ -88,3 +88,17 @@ main.exe
     <source src="../assets/STEP3.mp4" type="video/mp4">
   </video>
 </figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/view?usp=drive_link" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+---
+![alt text](../assets/STEP1.mp4)
+![alt text](../assets/STEP2.mp4)
+![alt text](../assets/STEP3.mp4)
+
+---
+![alt text](../assets/STEP1.gif)
+![alt text](../assets/STEP2.gif)
+![alt text](../assets/STEP3.gif)
