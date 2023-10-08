@@ -1,12 +1,10 @@
 #### Guide on how to run a COBOL Program using DosBox
 
-- Install DosBox if you don't have Dosbox yet
+- Clone this repository to your local machine
 ```bash
-# for windows, go to this link and download the installer
-https://www.dosbox.com/download.php?main=1
+git clone https://github.com/briansuhh/Cobol-Guide.git
 
-# for linux, you can install it using this command
-sudo apt install dosbox
+# Note: You can also download the repository as a zip file
 ```
 
 - Move the COBOL folder inside the C drive
@@ -20,6 +18,15 @@ mv <path to your folder> /mnt/c
 # NOTE: you can also move the folder by using the file explorer
 ```
 
+- Install DosBox if you don't have Dosbox yet
+```bash
+# for windows, go to this link and download the installer
+https://www.dosbox.com/download.php?main=1
+
+# for linux, you can install it using this command
+sudo apt install dosbox
+```
+
 - Open DosBox and mount the folder where you saved your COBOL program
 ```bash
 # mount the folder by using this command
@@ -29,18 +36,30 @@ mount c: c:\COBOL
 c:
 ```
 
+- Go to the COBOL folder and make a hello world program using COBOL, and save it as main.cob or main.cbl
+```cobol
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HelloWorld.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  HELLO-MESSAGE PIC X(14) VALUE "Hello, World!".
+
+       PROCEDURE DIVISION.
+           DISPLAY HELLO-MESSAGE.                                    
+           STOP RUN.
+```
+
 - Compile and run the COBOL program
 ```bash
 # compile your program by using this command
-realcob <name of your program>.cob
+realcob main.cob
 
 # after compiling, you can link the object file by using this command
-link <name of your program>.obj
+link main.obj
 
 # after linking, you can now run your program by using this command
-<name of your program>.exe
+main.exe    
 ```
 
 - NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
-
-
