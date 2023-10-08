@@ -5,6 +5,5 @@
        01  WS-HELLO-MESSAGE PIC X(14) VALUE "Hello, World!".
 
        PROCEDURE DIVISION.
-       main.
            DISPLAY WS-HELLO-MESSAGE.                                    
            STOP RUN.
