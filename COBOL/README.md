@@ -64,6 +64,27 @@ main.exe
 
 - NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
 
-![STEP 1](../assets/STEP1.mp4)
-![STEP 2](../assets/STEP2.mp4)  
-![STEP 3](../assets/STEP3.mp4)
+---
+#### Video Guide on how to run a COBOL Program using DosBox
+- Step 1: Download the repository as a zip file, extract it to your local machine and move the COBOL folder inside the C drive
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="../assets/STEP1.mp4" type="video/mp4">
+  </video>
+</figure>
+
+---
+- Step 2: Make a hello world program using COBOL, and save it as main.cob or main.cbl
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="../assets/STEP2.mp4" type="video/mp4">
+  </video>
+</figure>
+
+---
+- Step 3: Compile and run the COBOL program using DosBox
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="../assets/STEP3.mp4" type="video/mp4">
+  </video>
+</figure>
