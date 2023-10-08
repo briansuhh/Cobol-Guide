@@ -47,3 +47,11 @@ cobc -x -o output main.cob
 
 # yey~!! nkapagrun na ng COBOL program
 ```
+
+- NOTE: if you want to compile and run your program in one command, you can do so by using this command
+```bash
+cobc -x -o output main.cob && ./output
+```
+
+- NOTE: if you want to pick a different compiler like realia, you can follow the step by step instructions below<br>
+[DosBox for compiling and running COBOL](/DOSBox/README.md)

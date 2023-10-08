@@ -1,0 +1,10 @@
+
+ Start  Stop   Length Name                   Class            Group
+ 00000H 00010H 00011H RCLEP_TEXT             CODE
+ 00011H 00011H 00000H RCLMI_TEXT             CODE
+ 00011H 00012H 00002H RCLSG_TEXT             CODE
+ 00013H 00013H 00000H RCLEG_TEXT             CODE
+ 00020H 00597H 00578H APOL$PIKER$C00         CODE
+ 005A0H 00A62H 004C3H APOL$PIKER$D00         FAR_DATA
+
+ Origin   Group
