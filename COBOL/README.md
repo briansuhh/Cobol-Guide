@@ -93,6 +93,18 @@ main.exe
   <iframe src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/view?usp=drive_link" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/preview" type="video/mp4">
+  </video>
+</figure>
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/view?usp=drive_link" type="video/mp4">
+  </video>
+</figure>
+
 ---
 ![alt text](../assets/STEP1.mp4)
 ![alt text](../assets/STEP2.mp4)
