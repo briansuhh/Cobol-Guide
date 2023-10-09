@@ -3,7 +3,9 @@
 1. Turn on the WSL feature on your windows machine
     ```bash
     # open powershell as an administrator and run this command
-    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
+
+    # after running the command above, restart your computer
     ```
 
 2. Open a terminal to install WSL
