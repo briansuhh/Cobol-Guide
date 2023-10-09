@@ -51,12 +51,10 @@ cobc -x -o output main.cob
 # the first command compiled your program, now run the file you created
 ./output
 
-# yey~!! nkapagrun na ng COBOL program
-```
-
-- NOTE: if you want to compile and run your program in one command, you can do so by using this command
-```bash
+# you can combine the two commands above by using this command
 cobc -x -o output main.cob && ./output
+
+# yey~!! nkapagrun na ng COBOL program
 ```
 
 - NOTE: if you want to pick a different compiler like realia, you can follow the step by step instructions below<br>
