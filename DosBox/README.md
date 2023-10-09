@@ -1,6 +1,6 @@
 #### Guide on how to run a COBOL Program using DosBox
 
-- Clone this repository to your local machine
+- Clone this repository on your local machine
 ```bash
 git clone https://github.com/briansuhh/Cobol-Guide.git
 
