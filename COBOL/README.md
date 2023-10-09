@@ -64,53 +64,7 @@ main.exe
 
 - NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
 
----
+<!-- ---
 #### Video Guide on how to run a COBOL Program using DosBox
-- Step 1: Download the repository as a zip file, extract it to your local machine and move the COBOL folder inside the C drive
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="../assets/STEP1.mp4" type="video/mp4">
-  </video>
-</figure>
 
----
-- Step 2: Make a hello world program using COBOL, and save it as main.cob or main.cbl
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="../assets/STEP2.mp4" type="video/mp4">
-  </video>
-</figure>
-
----
-- Step 3: Compile and run the COBOL program using DosBox
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="../assets/STEP3.mp4" type="video/mp4">
-  </video>
-</figure>
-
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/view?usp=drive_link" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/preview" type="video/mp4">
-  </video>
-</figure>
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="https://drive.google.com/file/d/1Ib8A85jWWkp7S8QYnBCh54DUdBLEUhqg/view?usp=drive_link" type="video/mp4">
-  </video>
-</figure>
-
----
-![alt text](../assets/STEP1.mp4)
-![alt text](../assets/STEP2.mp4)
-![alt text](../assets/STEP3.mp4)
-
----
-![alt text](../assets/STEP1.gif)
-![alt text](../assets/STEP2.gif)
-![alt text](../assets/STEP3.gif)
+[![Video Guide](https://img.youtube.com/vi/9Z3Z3YqQ4Zo/0.jpg)](https://www.youtube.com/watch?v=9Z3Z3YqQ4Zo)  -->
