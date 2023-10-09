@@ -1,70 +1,68 @@
 #### Guide on how to run a COBOL Program using DosBox
 
-- Clone this repository on your local machine
-```bash
-git clone https://github.com/briansuhh/Cobol-Guide.git
+1. Clone this repository on your local machine
+    ```bash
+    git clone https://github.com/briansuhh/Cobol-Guide.git
 
-# Note: You can also download the repository as a zip file
-```
+    # Note: You can also download the repository as a zip file
+    ```
 
-- Move the COBOL folder inside the C drive
-```bash
-# for windows, you can move the folder by using this command
-move <path to your folder> c:
+2. Move the COBOL folder inside the C drive
+    ```bash
+    # for windows, you can move the folder by using this command
+    move <path to your folder> c:
 
-# for linux, you can move the folder by using this command
-mv <path to your folder> /mnt/c
+    # for linux, you can move the folder by using this command
+    mv <path to your folder> /mnt/c
 
-# NOTE: you can also move the folder by using the file explorer
-```
+    # NOTE: you can also move the folder by using file explorer
+    ```
 
-- Install DosBox if you don't have Dosbox yet
-```bash
-# for windows, go to this link and download the installer
-https://www.dosbox.com/download.php?main=1
+3. Install DosBox if you don't have Dosbox yet
+    ```bash
+    # for windows, go to this link and download the installer
+    https://www.dosbox.com/download.php?main=1
 
-# for linux, you can install it using this command
-sudo apt install dosbox
-```
+    # for linux, you can install it using this command
+    sudo apt install dosbox
+    ```
 
-- Open DosBox and mount the folder where you saved your COBOL program
-```bash
-# mount the folder by using this command
-mount c: c:\COBOL
+4. Open DosBox and mount the folder where you saved your COBOL program
+    ```bash
+    # mount the folder by using this command
+    mount c: c:\COBOL
 
-# go to the drive where you mounted the folder
-c:
-```
+    # go to the drive where you mounted the folder
+    c:
+    ```
 
-- Go to the COBOL folder and make a hello world program using COBOL, and save it as main.cob or main.cbl
-```cobol
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID. HelloWorld.
+5. Go to the COBOL folder and make a hello world program using COBOL, and save it as main.cob or main.cbl
+    ```cobol
+        IDENTIFICATION DIVISION.
+        PROGRAM-ID. HelloWorld.
 
-       DATA DIVISION.
-       WORKING-STORAGE SECTION.
-       01  HELLO-MESSAGE PIC X(14) VALUE "Hello, World!".
+        DATA DIVISION.
+        WORKING-STORAGE SECTION.
+        01  HELLO-MESSAGE PIC X(14) VALUE "Hello, World!".
 
-       PROCEDURE DIVISION.
-           DISPLAY HELLO-MESSAGE.                                    
-           STOP RUN.
-```
+        PROCEDURE DIVISION.
+            DISPLAY HELLO-MESSAGE.                                    
+            STOP RUN.
+    ```
 
-- Compile and run the COBOL program
-```bash
-# compile your program by using this command
-realcob main.cob
+6. Compile and run the COBOL program
+    ```bash
+    # compile your program by using this command
+    realcob main.cob
 
-# after compiling, you can link the object file by using this command
-link main.obj
+    # after compiling, you can link the object file by using this command
+    link main.obj
 
-# after linking, you can now run your program by using this command
-main.exe    
-```
+    # after linking, you can now run your program by using this command
+    main.exe    
+    ```
 
-- NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
+NOTE: You can only save your COBOL program within the COBOL folder located in the C drive. To save your program in a different folder, mount the desired folder, and transfer all realia files into it.
 
-<!-- ---
-#### Video Guide on how to run a COBOL Program using DosBox
-
-[![Video Guide](https://img.youtube.com/vi/9Z3Z3YqQ4Zo/0.jpg)](https://www.youtube.com/watch?v=9Z3Z3YqQ4Zo)  -->
+---
+For the video tutorial, you can watch the [videos](assets/videos) provided in this repository.

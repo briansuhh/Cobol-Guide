@@ -10,18 +10,17 @@
 4. Follow the instructions on the screen to install Kali Linux
 
 5. After installing Kali Linux, open the terminal and update your system
-
     ```bash
     sudo apt update
     ```
-6. Download a compiler that will compile your COBOL program
 
+6. Download a compiler that will compile your COBOL program
     ```bash
     # download the compiler for cobol
     sudo apt install gnucobol4
     ```
-7. Make a COBOL program for displaying Hello World, and save it as main.cob or main.cbl
 
+7. Make a COBOL program for displaying Hello World, and save it as main.cob or main.cbl
     ```cobol
            IDENTIFICATION DIVISION.
            PROGRAM-ID. HelloWorld.
@@ -33,8 +32,8 @@
                DISPLAY WS-HELLO-MESSAGE.
                STOP RUN.
     ```
-8. Compile and run the COBOL program
 
+8. Compile and run the COBOL program
     ```bash
     # the -x flag indicates that you want it to be compiled as an executable file
     # the -o flag indicates the file name for the output
