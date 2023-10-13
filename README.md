@@ -8,7 +8,7 @@
 - Follow this [guide](WSL/README.md) on how to run a COBOL program using WSL (Windows Subsystem for Linux)
 
 ##### Option 3: Using a DosBox
-- Follow this [guide](DOSBOX/README.md) on how to run a COBOL program using DosBox
+- Follow this [guide](DosBox/README.md) on how to run a COBOL program using DosBox
 
 ##### Option 4: Using a VM (Virtual Machine)
 - Follow this [guide](VM/README.md) on how to run a COBOL program using a VM (Virtual Machine)
