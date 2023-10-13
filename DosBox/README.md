@@ -9,13 +9,15 @@
 
 2. Move the COBOL folder of this repository inside C drive
     ```bash
+    # NOTE: you can also move the folder by using file explorer
+
     # for windows, you can move the folder by using this command
     move <path to your folder> c:
 
     # for linux, you can move the folder by using this command
     mv <path to your folder> /mnt/c
 
-    # NOTE: you can also move the folder by using file explorer
+    
     ```
 
 3. Install DosBox if you don't have Dosbox yet
