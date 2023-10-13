@@ -7,7 +7,7 @@
     # Note: You can also download the repository as a zip file
     ```
 
-2. Move the COBOL folder inside the C drive
+2. Move the COBOL folder of this repository inside C drive
     ```bash
     # for windows, you can move the folder by using this command
     move <path to your folder> c:
